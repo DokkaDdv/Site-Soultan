@@ -1,0 +1,44 @@
+:root {
+  --black: #0e0e0e;
+  --dark: #1a1a1a;
+  --mid: #2e2e2e;
+  --slate: #2E4057;
+  --slate-light: #3d5470;
+  --slate-pale: #e8edf3;
+  --grey: #6b6b6b;
+  --light: #f4f4f2;
+  --white: #ffffff;
+  --border: #e0e0e0;
+  --star-gold: #c78d2c;
+  --text-body: #3a3a3a;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background: var(--white);
+  color: var(--black);
+  overflow-x: hidden;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

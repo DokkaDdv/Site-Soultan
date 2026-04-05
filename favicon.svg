@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Soultan Ma�onnerie">
+  <rect width="32" height="32" rx="4" fill="#0e0e0e"/>
+  <path fill="#3d5470" d="M4 6h10v9H4V6zm14 0h10v9H18V6zM4 17h10v9H4v-9zm14 0h10v9H18v-9z"/>
+  <path fill="#2E4057" d="M4 15h24v2H4v-2z"/>
+</svg>

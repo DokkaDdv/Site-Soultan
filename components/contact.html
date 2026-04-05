@@ -1,0 +1,46 @@
+<section class="contact" id="contact">
+  <div class="section-inner">
+    <div class="contact-grid">
+      <div class="contact-info">
+        <span class="section-label">Contact</span>
+        <h2 class="section-title">PARLONS DE<br />VOTRE PROJET.</h2>
+        <p>Décrivez votre projet et nous vous recontactons rapidement pour établir un devis gratuit et sans engagement. Pour votre confidentialité, utilisez le formulaire ci-dessous plutôt que les coordonnées directes.</p>
+        <div class="contact-detail"><div class="contact-detail-icon">📞</div><a data-site-tel-link href="tel:+33687828329"><span data-site="phoneDisplay" data-site-empty="—"></span></a></div>
+        <div class="contact-detail"><div class="contact-detail-icon">✉️</div><a class="contact-email-link" data-site-mailto-link href="mailto:soultan1971@gmail.com">soultan1971@gmail.com</a></div>
+        <div class="contact-detail"><div class="contact-detail-icon">📍</div><span>Nice & alentours, Côte d'Azur</span></div>
+      </div>
+      <form id="devis-form" action="https://formspree.io/f/xaqlljda" method="POST" aria-labelledby="contact-title">
+        <div class="form-row">
+          <div class="form-group"><label for="prenom">Prénom *</label><input type="text" id="prenom" name="prenom" required placeholder="Votre prénom" /></div>
+          <div class="form-group"><label for="nom">Nom *</label><input type="text" id="nom" name="nom" required placeholder="Votre nom" /></div>
+        </div>
+        <div class="form-row">
+          <div class="form-group"><label for="telephone">Téléphone *</label><input type="tel" id="telephone" name="telephone" required placeholder="06 xx xx xx xx" /></div>
+          <div class="form-group"><label for="email">Email</label><input type="email" id="email" name="email" placeholder="votre@email.com" /></div>
+        </div>
+        <div class="form-group">
+          <label for="adresse">Adresse du chantier</label>
+          <input type="text" id="adresse" name="adresse" placeholder="Ville, code postal approximatif" />
+        </div>
+        <div class="form-group">
+          <label for="type_travaux">Type de travaux *</label>
+          <select id="type_travaux" name="type_travaux" required>
+            <option value="" disabled selected>Sélectionnez...</option>
+            <option>Maçonnerie générale</option>
+            <option>Béton & fondations</option>
+            <option>Placo & cloisons</option>
+            <option>Piscine</option>
+            <option>Rénovation complète</option>
+            <option>Aménagement extérieur</option>
+            <option>Autre</option>
+          </select>
+        </div>
+        <div class="form-group"><label for="description">Description du projet *</label><textarea id="description" name="description" required placeholder="Décrivez votre projet, la surface approximative, vos contraintes..."></textarea></div>
+        <input type="hidden" name="_subject" value="Nouvelle demande de devis – Soultan Maçonnerie" />
+        <input type="text" name="_gotcha" style="display:none" />
+        <button type="submit" class="form-submit">Envoyer ma demande →</button>
+        <div class="form-success" id="form-success">✓ Votre demande a bien été envoyée. Nous vous recontactons sous 48h.</div>
+      </form>
+    </div>
+  </div>
+</section>
