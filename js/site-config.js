@@ -12,7 +12,7 @@
  * - ogImageFilename : nom du fichier dans /images/ (ex. "og.jpg") une fois uploadé
  */
 window.SITE_CONFIG = {
-  baseUrl: "https://soultan-maconnerie.vercel.app",
+  baseUrl: "https://soultanmaconnerie.com",
 
   businessName: "Soultan Maçonnerie",
   /** Nom de l’auto-entrepreneur (facturation, légal) */

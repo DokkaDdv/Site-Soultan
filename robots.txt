@@ -4,4 +4,4 @@ Disallow: /js/
 Disallow: /css/
 Disallow: /components/
 
-Sitemap: https://soultan-maconnerie.vercel.app/sitemap.xml
+Sitemap: https://soultanmaconnerie.com/sitemap.xml
