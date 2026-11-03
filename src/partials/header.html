@@ -1,0 +1,32 @@
+<a class="skip" href="#main">Aller au contenu</a>
+<header class="hdr" id="hdr">
+  <div class="hdr-bar">
+    <a class="logo" href="/" aria-label="Soultan Maçonnerie, accueil" translate="no">soultan<span class="logo-pt"></span></a>
+    <nav class="hdr-nav" aria-label="Navigation principale">
+      <details class="nav-drop">
+        <summary>Services</summary>
+        <div class="drop-panel">
+          {{> services-liens}}
+        </div>
+      </details>
+      <a href="/realisations/">Réalisations</a>
+      <a href="/a-propos/">L’artisan</a>
+      <a href="/#zone">Zone</a>
+    </nav>
+    <div class="hdr-end">
+      <a class="hdr-tel" href="tel:{{telLien}}" data-track="Appel">{{tel}}</a>
+      <a class="hdr-cta" href="/devis/" data-track="Devis"><span>Devis gratuit</span><span class="fleche">{{> fleche}}</span></a>
+      <button class="hdr-menu" type="button" aria-expanded="false" aria-controls="mnav">Menu</button>
+    </div>
+  </div>
+  <nav class="mnav" id="mnav" aria-label="Navigation mobile">
+    <p class="mnav-title">Services</p>
+    <div class="mnav-sub">
+      {{> services-liens}}
+    </div>
+    <a class="mnav-link" href="/realisations/">Réalisations</a>
+    <a class="mnav-link" href="/a-propos/">L’artisan</a>
+    <a class="mnav-link" href="/#zone">Zone d’intervention</a>
+    <a class="btn btn--brique mnav-cta" href="/devis/" data-track="Devis">Demander un devis gratuit</a>
+  </nav>
+</header>

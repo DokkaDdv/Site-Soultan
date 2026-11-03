@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{title}}</title>
+<meta name="description" content="{{description}}">
+<meta name="robots" content="{{robots}}">
+<link rel="canonical" href="{{url}}">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:site_name" content="Soultan Maçonnerie">
+<meta property="og:title" content="{{title}}">
+<meta property="og:description" content="{{description}}">
+<meta property="og:url" content="{{url}}">
+<meta property="og:image" content="{{site}}{{image}}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="author" content="Soultan Maçonnerie">
+<meta name="theme-color" content="#1B1D1F">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="/assets/fonts/archivo-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/site.css">
+<script>(function(d){d.classList.add('js');if(matchMedia('(prefers-reduced-motion: reduce)').matches)d.classList.add('rm');setTimeout(function(){if(!window.__smSite)d.classList.remove('js')},4000)})(document.documentElement);</script>
+<script src="/assets/js/site.js" defer></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": ["HomeAndConstructionBusiness", "GeneralContractor"],
+  "@id": "{{site}}/#entreprise",
+  "name": "Soultan Maçonnerie",
+  "legalName": "Soultan Doudaev",
+  "description": "Artisan maçon à Nice : maçonnerie générale, béton et fondations, placo, piscines maçonnées, rénovation du gros œuvre et aménagements extérieurs.",
+  "url": "{{site}}/",
+  "image": "{{site}}/media/cabinet-elevation-blocs.jpg",
+  "telephone": "+33687828329",
+  "email": "soultan1971@gmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "88 avenue Sainte-Marguerite",
+    "postalCode": "06200",
+    "addressLocality": "Nice",
+    "addressRegion": "Alpes-Maritimes",
+    "addressCountry": "FR"
+  },
+  "areaServed": {{zoneJson}},
+  "knowsAbout": ["Maçonnerie générale", "Gros œuvre", "Béton armé", "Fondations", "Plaques de plâtre", "Piscines maçonnées", "Aménagements extérieurs"],
+  "identifier": { "@type": "PropertyValue", "propertyID": "SIREN", "value": "829543560" },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Services",
+    "itemListElement": [
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Maçonnerie générale", "url": "{{site}}/maconnerie-generale/" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Béton, dalles et fondations", "url": "{{site}}/beton-fondations/" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Placo et cloisons", "url": "{{site}}/placo-cloisons/" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Piscines maçonnées", "url": "{{site}}/piscine-maconnee/" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Rénovation du gros œuvre", "url": "{{site}}/renovation-gros-oeuvre/" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Aménagements extérieurs", "url": "{{site}}/amenagement-exterieur/" } }
+    ]
+  }
+}
+</script>
+</head>
+<body class="{{bodyClass}}">
+{{> header}}
+<main id="main">
+{{content}}
+</main>
+{{> footer}}
+{{> sticky}}
+</body>
+</html>

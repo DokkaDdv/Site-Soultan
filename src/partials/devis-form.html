@@ -1,0 +1,52 @@
+<form class="form devis" name="devis" method="POST" action="{{formspree}}">
+  <input type="hidden" name="_subject" value="Demande de devis depuis le site">
+  <p class="sr"><label>Ne pas remplir <input name="_gotcha" tabindex="-1" autocomplete="off"></label></p>
+  <p class="form-progress" aria-live="polite">Étape <span data-step-n>1</span> sur 3<span data-choix></span></p>
+
+  <fieldset class="step is-active">
+    <legend>Quels travaux ?</legend>
+    <div class="chips">
+      <label class="chip"><input type="radio" name="travaux" value="Maçonnerie générale" required><span>Maçonnerie générale</span></label>
+      <label class="chip"><input type="radio" name="travaux" value="Béton et fondations"><span>Béton et fondations</span></label>
+      <label class="chip"><input type="radio" name="travaux" value="Placo et cloisons"><span>Placo et cloisons</span></label>
+      <label class="chip"><input type="radio" name="travaux" value="Piscine"><span>Piscine</span></label>
+      <label class="chip"><input type="radio" name="travaux" value="Rénovation"><span>Rénovation</span></label>
+      <label class="chip"><input type="radio" name="travaux" value="Aménagement extérieur"><span>Aménagement extérieur</span></label>
+      <label class="chip"><input type="radio" name="travaux" value="Autre"><span>Autre</span></label>
+    </div>
+    <div class="step-nav"><button class="btn btn--encre" type="button" data-next>Continuer <span aria-hidden="true">→</span></button></div>
+  </fieldset>
+
+  <fieldset class="step">
+    <legend>Votre projet</legend>
+    <label><span>Commune des travaux</span><input class="field" type="text" name="commune" autocomplete="address-level2" required></label>
+    <div class="form-row">
+      <label><span>Vous êtes</span>
+        <span class="select-wrap"><select class="field" name="client">
+          <option>Un particulier</option><option>Une entreprise du bâtiment</option><option>Un syndic, un bailleur</option>
+        </select></span>
+      </label>
+      <label><span>Quand ?</span>
+        <span class="select-wrap"><select class="field" name="delai">
+          <option>Dès que possible</option><option>Dans le mois</option><option selected>Dans 1 à 3 mois</option><option>Plus tard</option>
+        </select></span>
+      </label>
+    </div>
+    <label><span>Votre projet en quelques mots</span><textarea class="field" name="message" rows="4" placeholder="Exemple : mur de clôture de 15 m, terrain en pente, accès camion possible"></textarea></label>
+    <p class="form-note">Des photos aident à chiffrer : après votre demande, envoyez-les sur <a href="https://wa.me/{{whatsapp}}" target="_blank" rel="noopener" data-track="WhatsApp">WhatsApp</a>.</p>
+    <div class="step-nav"><button class="btn-text" type="button" data-prev>← Retour</button><button class="btn btn--encre" type="button" data-next>Continuer <span aria-hidden="true">→</span></button></div>
+  </fieldset>
+
+  <fieldset class="step">
+    <legend>Vos coordonnées</legend>
+    <label><span>Nom</span><input class="field" type="text" name="nom" autocomplete="name" required></label>
+    <div class="form-row">
+      <label><span>Téléphone</span><input class="field" type="tel" name="telephone" autocomplete="tel" inputmode="tel" required></label>
+      <label><span>E-mail (facultatif)</span><input class="field" type="email" name="email" autocomplete="email" spellcheck="false"></label>
+    </div>
+    <p class="form-note">Ces informations servent uniquement à vous recontacter au sujet de votre demande. Elles sont transmises par le service Formspree et ne sont pas conservées sur ce site (<a href="/mentions-legales/#confidentialite">confidentialité</a>).</p>
+    <div class="step-nav"><button class="btn-text" type="button" data-prev>← Retour</button><button class="btn btn--brique" type="submit">Envoyer ma demande</button></div>
+  </fieldset>
+
+  <p class="form-status" role="status" aria-live="polite"></p>
+</form>
