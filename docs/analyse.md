@@ -16,7 +16,7 @@ pour le bloc Maps.
 
 Fiches d'annuaire surtout, peu de sites propres, peu de prix affichés. Le site de Soultan
 peut se distinguer avec de vraies photos de chantier, une page par service et des
-réponses claires (autorisations de piscine, de clôture, ouverture de mur porteur).
+réponses claires (autorisation de clôture, ouverture de mur porteur).
 
 ## 3. Infos publiques de l'entreprise
 
@@ -46,9 +46,8 @@ réponses claires (autorisations de piscine, de clôture, ouverture de mur porte
 | /maconnerie-generale/ | maçonnerie générale Nice |
 | /beton-fondations/ | dalle béton Nice, fondations maison Nice |
 | /placo-cloisons/ | placo cloison Nice |
-| /piscine-maconnee/ | piscine maçonnée Nice |
 | /renovation-gros-oeuvre/ | ouverture mur porteur Nice, rénovation gros œuvre Nice |
-| /amenagement-exterieur/ | mur de soutènement Nice, muret Nice |
+| /amenagement-exterieur/ | muret Nice, terrasse béton Nice |
 
 Sources : [Obat, maçons à Nice](https://travaux.obat.fr/macon/nice),
 [Obat, maçonnerie générale à Nice](https://travaux.obat.fr/maconnerie-generale/nice),

@@ -41,7 +41,7 @@ const ev = async (e) => { const r = await send('Runtime.evaluate', { expression:
   await sleep(600);
   console.log('clic souris →', await ev(`({ etape: document.querySelector('[data-step-n]').textContent, choix: document.querySelector('input[name=travaux]:checked')?.value })`));
   /* Arrivée depuis une page de service */
-  await send('Page.navigate', { url: 'http://localhost:5173/devis/?travaux=Piscine' }); await sleep(1500);
+  await send('Page.navigate', { url: 'http://localhost:5173/devis/?travaux=R%C3%A9novation' }); await sleep(1500);
   console.log('depuis service →', await ev(`({ etape: document.querySelector('[data-step-n]').textContent, choix: document.querySelector('input[name=travaux]:checked')?.value, actif: [...document.querySelectorAll('.step')].findIndex(s => s.classList.contains('is-active')) })`));
   ws.close(); chrome.kill(); process.exit(0);
 })().catch((e) => { console.error(e); chrome.kill(); process.exit(1); });

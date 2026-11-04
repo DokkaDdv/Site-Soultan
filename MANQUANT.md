@@ -8,9 +8,7 @@ mois), **confort**.
 
 | Info | Où sur le site | Qui |
 | --- | --- | --- |
-| Médiateur de la consommation : Soultan doit adhérer à un médiateur agréé (obligatoire dès qu'on travaille pour des particuliers ; liste officielle sur economie.gouv.fr, rubrique « médiateurs de la consommation »), puis donner son nom, son adresse et son site | Mentions légales | Soultan, avec Dokka |
-| TVA : regarder une facture de Soultan. Si elle porte « TVA non applicable, art. 293 B du CGI », on écrit cette mention (cas courant en micro-entreprise) ; si elle porte un numéro FR…, on écrit ce numéro | Mentions légales | Dokka |
-| Zone couverte par la décennale (écrite sur l'attestation d'assurance) | Mentions légales | Dokka |
+| Médiateur de la consommation : écarté par Dokka le 4 novembre 2026 (section retirée des mentions légales). Obligation légale dès qu'on travaille pour des particuliers (articles L.612-1 et L.641-1 du Code de la consommation, amende administrative possible) : à régler plus tard | Mentions légales | Soultan |
 | Envoyer une vraie demande de test depuis l'aperçu, vérifier qu'elle arrive hors indésirables (adresse de réception du compte Formspree) | Formulaire | Dokka |
 
 ## Réglé le 4 novembre 2026
@@ -20,6 +18,12 @@ mois), **confort**.
 - Formulaire : `https://formspree.io/f/xaqlljda`, confirmé par Dokka.
 - Domaine `soultanmaconnerie.com` : payé et détenu par Dokka, accepté (Soultan est son
   père). Exception à la règle « comptes au nom du client », décidée par Dokka.
+- TVA : factures « exonérées de TVA » : mention « TVA non applicable, article 293 B du CGI ».
+  Conseil : écrire cette mention exacte sur les factures de Soultan.
+- Décennale : activité « maçonnerie et béton armé » (plâtrerie et carrelage en travaux
+  accessoires), France métropolitaine et DROM. **Ni les piscines ni les parois de
+  soutènement autonomes ne sont couvertes** : page Piscines et murs de soutènement retirés
+  du site (décision de Dokka). À remettre seulement si le contrat est étendu.
 - Hébergeur : Vercel ne publie aucun numéro de téléphone vérifiable ; les mentions donnent
   l'adresse et la page de contact officielle `vercel.com/contact`.
 
@@ -35,14 +39,14 @@ mois), **confort**.
 | WhatsApp actif sur le 06 87 82 83 29 | Barre mobile, formulaire, merci |
 | Liste des communes desservies (Nice, Saint-Laurent-du-Var, Cagnes-sur-Mer, Vence, Antibes, Cannes, Grasse, Menton) | Accueil (#zone), données structurées |
 | C'est Soultan qui fait la visite, le devis et le chantier (pas d'équipe ?) | Accueil, L'artisan |
-| Il fait bien les 6 services, dont le placo et les piscines | Toutes les pages de service |
+| Il fait bien les 5 services, dont le placo (présenté comme complément de ses chantiers de maçonnerie) | Toutes les pages de service |
 | Adresse 88 avenue Sainte-Marguerite : à afficher ou non (domicile ?) | Mentions légales, données structurées |
 
 ## Important
 
 | Info | Où |
 | --- | --- |
-| Prix « à partir de » : mur en blocs (m²), dalle (m²), cloison placo (m²), structure de piscine, ouverture de mur porteur, muret (mètre) | Les 6 pages de service |
+| Prix « à partir de » : mur en blocs (m²), dalle (m²), cloison placo (m²), ouverture de mur porteur, muret (mètre) | Les 6 pages de service |
 | Durée et détail des travaux de chaque chantier (cabinet, restaurant, villas, logements) ; communes des villas et des logements | Fiches chantier |
 | Quelques lignes sur son parcours : où il a appris, pourquoi à son compte | Page L'artisan |
 | Une photo de Soultan sur un chantier (`media/soultan-chantier.jpg`) | Page L'artisan |

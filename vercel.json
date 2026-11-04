@@ -12,7 +12,7 @@
     { "source": "/service-maconnerie.html", "destination": "/maconnerie-generale/", "permanent": true },
     { "source": "/service-beton.html", "destination": "/beton-fondations/", "permanent": true },
     { "source": "/service-placo.html", "destination": "/placo-cloisons/", "permanent": true },
-    { "source": "/service-piscine.html", "destination": "/piscine-maconnee/", "permanent": true },
+    { "source": "/service-piscine.html", "destination": "/", "permanent": true },
     { "source": "/service-renovation.html", "destination": "/renovation-gros-oeuvre/", "permanent": true },
     { "source": "/service-exterieur.html", "destination": "/amenagement-exterieur/", "permanent": true },
     { "source": "/mentions-legales.html", "destination": "/mentions-legales/", "permanent": true },

@@ -96,7 +96,7 @@ writeFileSync(join(OUT, 'robots.txt'), `User-agent: *\nContent-Signal: search=ye
 pages.sort((a, b) => a.url.localeCompare(b.url));
 writeFileSync(join(OUT, 'llms.txt'), `# Soultan Maçonnerie
 
-> Artisan maçon à Nice (Alpes-Maritimes), entreprise individuelle de Soultan Doudaev : maçonnerie générale, béton et fondations, placo et cloisons, piscines maçonnées, rénovation du gros œuvre et aménagements extérieurs, pour les particuliers et les entreprises du bâtiment. Téléphone : ${TEL.affiche}. SIREN 829 543 560.
+> Artisan maçon à Nice (Alpes-Maritimes), entreprise individuelle de Soultan Doudaev : maçonnerie générale, béton et fondations, placo et cloisons, rénovation du gros œuvre et aménagements extérieurs, pour les particuliers et les entreprises du bâtiment. Téléphone : ${TEL.affiche}. SIREN 829 543 560.
 
 ## Pages
 

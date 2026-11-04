@@ -18,10 +18,10 @@ outils/              serveur.js, verifier.js, test-formulaire.js
 vercel.json          build, en-têtes de sécurité, redirections des anciennes adresses .html
 ```
 
-## Pages (15 indexables)
+## Pages (14 indexables)
 
-Accueil · 6 services (maçonnerie générale, béton et fondations, placo et cloisons, piscines
-maçonnées, rénovation du gros œuvre, aménagements extérieurs) · Réalisations et 4 fiches
+Accueil · 5 services (maçonnerie générale, béton et fondations, placo et cloisons,
+rénovation du gros œuvre, aménagements extérieurs) · Réalisations et 4 fiches
 chantier (cabinet médical, restaurant, villas, logements collectifs) · L'artisan · Devis
 (3 étapes) · Mentions légales et confidentialité. Plus `merci` et `404`, non indexées.
 

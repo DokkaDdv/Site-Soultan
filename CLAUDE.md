@@ -62,6 +62,9 @@ Bati Home (crème, olive) et de l'ancien site (noir, bleu ardoise, Bebas Neue).
   repères à compléter : jamais de délai, de prix ou de garantie non confirmés.
 - Nom de l'entreprise générale : « Rodari Charles & Fils » (Nyons, Drôme). L'ancien site
   écrivait « Rodarie » ; orthographe corrigée d'après les annuaires, à confirmer.
+- Assurance : la décennale (MIC Insurance Company, AXE2200096) couvre la maçonnerie et le
+  béton armé, pas les piscines ni les murs de soutènement autonomes. Ne proposer sur le site
+  que des travaux couverts (voir `MANQUANT.md`).
 - Typographie française : `build.mjs` insère l'espace fine insécable avant ? ! ; :.
 
 ## Points techniques à connaître

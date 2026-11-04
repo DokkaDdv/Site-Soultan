@@ -12,7 +12,7 @@
 - Refonte sur le socle Bati Home (`build.mjs`, partials, outils), adapté à Vercel :
   Formspree à la place de `devis.php`, `vercel.json` pour les en-têtes et les redirections
   des anciennes adresses `.html`.
-- Résultat : 15 pages indexables (accueil, 6 services, réalisations et 4 fiches chantier,
+- Résultat : 14 pages indexables (accueil, 5 services, réalisations et 4 fiches chantier,
   l'artisan, devis en 3 étapes, mentions légales), plus merci et 404.
 - Deux directions artistiques : une première claire « panneau de chantier », refusée par
   Dokka (« la page d'accueil fait vibecodée ») ; puis « plan de nuit », sombre et
@@ -50,11 +50,11 @@ direction artistique. Plus rapide que Bati Home grâce au socle et au guide.
 | Césure automatique des titres (« RÉNOVA-TION ») et mots longs qui débordent en capitales larges | Pas de `hyphens: auto` sur les titres ; tester les mots longs en 375 px |
 | Test du formulaire faux négatif avec le défilement doux | `scrollIntoView({ behavior: 'instant' })` dans les tests |
 | Espace avant « ? » qui laisse le point d'interrogation seul en début de ligne | `build.mjs` insère l'espace fine insécable avant ? ! ; : |
+| Le site proposait des travaux que la décennale ne couvre pas (piscines, soutènement) | Demander l'attestation d'assurance en phase 0 et ne vendre sur le site que les activités couvertes |
 
 ## Ce qui reste à prouver
 
-- Les infos bloquantes de `MANQUANT.md` : décennale, médiateur, TVA, propriété du domaine
-  et du compte Formspree.
+- Les infos de `MANQUANT.md` : médiateur écarté pour l'instant, demande de test à faire.
 - Une vraie demande reçue par Soultan depuis le site en ligne.
 - Le référencement local : il n'y a ni fiche Google connue ni avis. Les chantiers de
   référence sont en Drôme et Vaucluse : il faudra des chantiers niçois.
