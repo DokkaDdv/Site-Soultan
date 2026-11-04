@@ -51,7 +51,7 @@ Photos : les deux images qui semblaient venir du site de Rodari (`rodari_361.lg.
 | --- | --- |
 | Photos originales en haute définition (les actuelles font souvent 250 × 200 px) | Partout |
 | Photos d'un chantier de placo | Page Placo |
-| Fiche Google Business Profile : existe-t-elle ? Sinon la créer au nom de Soultan | Phase 9 du guide |
+| Fiche Google Business Profile : à créer, tout est prêt dans `docs/referencement-local.md` | Phase 9 du guide |
 | 3 vrais avis Google complets, mot pour mot, quand la fiche en aura | Section avis à créer |
 
 ## Confort
