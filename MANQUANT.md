@@ -9,7 +9,6 @@ mois), **confort**.
 | Info | Où sur le site | Qui |
 | --- | --- | --- |
 | Médiateur de la consommation : écarté par Dokka le 4 novembre 2026 (section retirée des mentions légales). Obligation légale dès qu'on travaille pour des particuliers (articles L.612-1 et L.641-1 du Code de la consommation, amende administrative possible) : à régler plus tard | Mentions légales | Soultan |
-| Envoyer une vraie demande de test depuis l'aperçu, vérifier qu'elle arrive hors indésirables (adresse de réception du compte Formspree) | Formulaire | Dokka |
 
 ## Réglé le 4 novembre 2026
 
@@ -35,20 +34,16 @@ mois), **confort**.
 - Hébergeur : Vercel ne publie aucun numéro de téléphone vérifiable ; les mentions donnent
   l'adresse et la page de contact officielle `vercel.com/contact`.
 
-## À reconfirmer (repris de l'ancien site, non vérifié)
+## Confirmé par Dokka le 4 novembre 2026
 
-| Info | Où |
-| --- | --- |
-| « Maçon depuis 15 ans » (l'entreprise individuelle date d'environ 2017 : 15 ans de métier, pas d'entreprise) | Accueil, L'artisan |
-| Orthographe « Rodari Charles & Fils » (l'ancien site écrivait « Rodarie ») | Accueil, réalisations |
-| Nom exact « Batri Diaz Constructions » et promoteur « Delta » (introuvables en ligne) | Accueil, logements collectifs |
-| Cabinet médical et restaurant à Saint-Martin-de-la-Brasque (Vaucluse) | Fiches chantier |
-| Photos : prises par Soultan ? Les fichiers `rodari_361.lg.jpg` et `rodari_maison.jpg` ressemblent à des images du site de Rodari : si oui, demander l'accord de Rodari ou les retirer | Réalisations, piscine, extérieurs |
-| WhatsApp actif sur le 06 87 82 83 29 | Barre mobile, formulaire, merci |
-| Liste des communes desservies (Nice, Saint-Laurent-du-Var, Cagnes-sur-Mer, Vence, Antibes, Cannes, Grasse, Menton) | Accueil (#zone), données structurées |
-| C'est Soultan qui fait la visite, le devis et le chantier (pas d'équipe ?) | Accueil, L'artisan |
-| Il fait bien les 5 services, dont le placo (présenté comme complément de ses chantiers de maçonnerie) | Toutes les pages de service |
-| Adresse 88 avenue Sainte-Marguerite : à afficher ou non (domicile ?) | Mentions légales, données structurées |
+Repris de l'ancien site et validés tels quels : « maçon depuis 15 ans », Rodari Charles &
+Fils, Batri Diaz Constructions et le promoteur Delta, cabinet médical et restaurant à
+Saint-Martin-de-la-Brasque, WhatsApp sur le 06 87 82 83 29, liste des communes, Soultan seul
+de la visite au chantier, les 5 services, adresse affichée dans les mentions légales.
+Formulaire Formspree testé : la demande arrive.
+
+Photos : les deux images qui semblaient venir du site de Rodari (`rodari_361.lg.jpg`,
+`rodari_maison.jpg`) ont été retirées par prudence ; les autres sont de Soultan.
 
 ## Important
 
