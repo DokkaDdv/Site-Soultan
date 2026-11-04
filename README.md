@@ -37,6 +37,8 @@ Puis http://localhost:5173. Vérifications : `node outils/verifier.js 390 844` e
 
 ## Mise en ligne
 
+Faite le 4 novembre 2026 (fusion dans `main`, Vercel publie la production). Pour mémoire :
+
 1. Remplir `MANQUANT.md` (partie bloquante), plus aucun repère orange bloquant.
 2. Dans `build.mjs` : `const APERCU = false`.
 3. Fusionner la branche dans `main` : Vercel publie la production sur le domaine.

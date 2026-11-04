@@ -1,6 +1,6 @@
 # Bilan à chaud : Soultan Maçonnerie (refonte, formule 3)
 
-Écrit le 3 novembre 2026, avant la mise en ligne. À compléter à J+30 et J+90.
+Écrit le 3 novembre 2026, mis à jour à la mise en ligne le 4 novembre 2026. À compléter à J+30 et J+90.
 
 ## Le projet
 
@@ -26,7 +26,7 @@
 | Piscine maçonnée | 99 | 100 | 100 | 92 hors aperçu | 2,0 s |
 | Devis | 99 | 100 | 100 | 92 hors aperçu | 1,8 s |
 
-SEO à 92 en version définitive (`APERCU=non node build.mjs`) : seul reste l'avertissement
+SEO à 92 en version définitive (contrôlé le 4 novembre 2026 avant la mise en ligne) : seul reste l'avertissement
 sur la ligne `Content-Signal` de robots.txt, gardée volontairement (guide, brique B14). En
 aperçu, 61, à cause du `noindex` voulu.
 

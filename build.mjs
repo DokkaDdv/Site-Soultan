@@ -7,7 +7,7 @@ import { execSync } from 'node:child_process';
 const SITE = 'https://soultanmaconnerie.com'; // domaine actuel (propriétaire à confirmer, MANQUANT.md)
 const OUT = 'dist';
 // Aperçu : aucune page indexée par les moteurs (balise robots). Passer à false à la mise en ligne.
-const APERCU = process.env.APERCU !== "non"; // APERCU=non node build.mjs : contrôle de la version définitive en local
+const APERCU = process.env.APERCU === "oui"; // en ligne depuis le 4 novembre 2026 ; APERCU=oui node build.mjs pour un aperçu noindex
 // Valeurs provisoires (<span class="ex">) des fiches chantier et du parcours : accord de Soultan,
 // transmis par Dokka le 4 novembre 2026. À remplacer dès que possible (MANQUANT.md).
 const EXEMPLES_ACCEPTES = true;

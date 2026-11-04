@@ -11,7 +11,8 @@ Soultan), `docs/analyse.md`, `docs/bilan.md`.
 ## Commandes
 
 - Assembler le site : `node build.mjs` (Node 18+, aucune dépendance), résultat dans `dist/`.
-  `APERCU=non node build.mjs` produit la version définitive en local, pour la contrôler.
+  Le site est en ligne (version définitive par défaut) ; `APERCU=oui node build.mjs` produit
+  un aperçu non indexé.
 - Serveur local : `node outils/serveur.js` → http://localhost:5173.
 - Vérifier les pages : `node outils/verifier.js 1440 900`, puis 1024 768, 390 844, 375 812.
 - Tester le formulaire : `node outils/test-formulaire.js`.
