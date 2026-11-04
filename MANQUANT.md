@@ -13,6 +13,14 @@ mois), **confort**.
 
 ## Réglé le 4 novembre 2026
 
+- Prix « à partir de » : retirés des pages de service (choix de Dokka).
+- Photo de Soultan : pas de photo (choix de Dokka) ; la page L'artisan montre un chantier.
+- **Valeurs provisoires** (`<span class="ex">`, accord de Soultan transmis par Dokka) : durées
+  du cabinet médical (environ 3 mois) et du restaurant (environ 2 mois), communes des villas
+  (Drôme provençale et Vaucluse) et des logements (Provence), détail des travaux des 4
+  chantiers, paragraphe sur le parcours de Soultan. À remplacer par les vraies infos dès
+  que possible ; `EXEMPLES_ACCEPTES` dans `build.mjs` autorise leur publication.
+
 - Décennale : MIC Insurance Company, contrat n° AXE2200096 (donné par Dokka). Adresse du
   siège d'après le registre de l'ACPR : 29 rue de Bassano, 75008 Paris.
 - Formulaire : `https://formspree.io/f/xaqlljda`, confirmé par Dokka.
@@ -46,10 +54,6 @@ mois), **confort**.
 
 | Info | Où |
 | --- | --- |
-| Prix « à partir de » : mur en blocs (m²), dalle (m²), cloison placo (m²), ouverture de mur porteur, muret (mètre) | Les 6 pages de service |
-| Durée et détail des travaux de chaque chantier (cabinet, restaurant, villas, logements) ; communes des villas et des logements | Fiches chantier |
-| Quelques lignes sur son parcours : où il a appris, pourquoi à son compte | Page L'artisan |
-| Une photo de Soultan sur un chantier (`media/soultan-chantier.jpg`) | Page L'artisan |
 | Photos originales en haute définition (les actuelles font souvent 250 × 200 px) | Partout |
 | Photos d'un chantier de placo | Page Placo |
 | Fiche Google Business Profile : existe-t-elle ? Sinon la créer au nom de Soultan | Phase 9 du guide |

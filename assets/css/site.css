@@ -63,7 +63,7 @@ button, input, select, textarea { font: inherit; color: inherit; }
 
 /* Repères à compléter (MANQUANT.md) et valeurs d'exemple */
 .todo { background: #FFD9A8; color: #5A3000; padding: 0 .25em; font-weight: 600; }
-.ex { border-bottom: 2px dotted var(--signal); }
+.ex { }  /* valeurs provisoires, voir MANQUANT.md */
 
 .wrap { width: 100%; max-width: var(--wrap); margin: 0 auto; padding: 0 var(--gut); }
 .sec { position: relative; padding: var(--sec) 0; }

@@ -8,6 +8,9 @@ const SITE = 'https://soultanmaconnerie.com'; // domaine actuel (propriétaire �
 const OUT = 'dist';
 // Aperçu : aucune page indexée par les moteurs (balise robots). Passer à false à la mise en ligne.
 const APERCU = process.env.APERCU !== "non"; // APERCU=non node build.mjs : contrôle de la version définitive en local
+// Valeurs provisoires (<span class="ex">) des fiches chantier et du parcours : accord de Soultan,
+// transmis par Dokka le 4 novembre 2026. À remplacer dès que possible (MANQUANT.md).
+const EXEMPLES_ACCEPTES = true;
 // Formulaire de devis : Formspree (hébergement Vercel, pas de PHP). Compte à transférer au client (MANQUANT.md).
 const FORMSPREE = 'https://formspree.io/f/xaqlljda';
 // Communes de la liste #zone de l'accueil (provisoire, MANQUANT.md), reprises dans les données structurées
@@ -56,8 +59,8 @@ for (const file of walk('src/pages')) {
   const meta = JSON.parse(head[1]);
   if (meta.title.length > 60) throw new Error(`${file} : titre de ${meta.title.length} caractères (60 au plus)`);
   if (meta.description.length > 160) throw new Error(`${file} : description de ${meta.description.length} caractères (160 au plus)`);
-  // Valeurs d'exemple (<span class="ex">) : interdites hors aperçu
-  if (!APERCU && src.includes('class="ex"')) throw new Error(`${file} : valeurs d'exemple à remplacer avant la mise en ligne`);
+  // Valeurs provisoires (<span class="ex">) : interdites hors aperçu, sauf accord du client.
+  if (!APERCU && !EXEMPLES_ACCEPTES && src.includes('class="ex"')) throw new Error(`${file} : valeurs d'exemple à remplacer avant la mise en ligne`);
   const name = relative('src/pages', file).replace(/\\/g, '/').replace(/\.html$/, '');
   const path = name === 'index' ? '/' : `/${name}/`;
   const page = {
