@@ -1,6 +1,6 @@
 # Ce qui manque pour mettre le site en ligne
 
-Mis à jour le 3 novembre 2026. Les repères orange du site (`<span class="todo">`) renvoient
+Mis à jour le 4 novembre 2026. Les repères orange du site (`<span class="todo">`) renvoient
 ici. Priorités : **bloquant** (pas de mise en ligne sans), **important** (à avoir dans le
 mois), **confort**.
 
@@ -8,13 +8,20 @@ mois), **confort**.
 
 | Info | Où sur le site | Qui |
 | --- | --- | --- |
-| Assurance décennale : assureur, n° de contrat, zone couverte | Mentions légales, FAQ accueil, page L'artisan | Soultan |
-| Médiateur de la consommation (obligatoire avec des particuliers) | Mentions légales | Soultan (adhésion si aucun) |
-| TVA : numéro intracommunautaire, ou franchise « TVA non applicable, art. 293 B du CGI » | Mentions légales | Soultan |
-| Téléphone de l'hébergeur Vercel, adresse à revérifier | Mentions légales | Dokka |
-| Le domaine `soultanmaconnerie.com` est-il au nom de Soultan ? Sinon, le transférer | build.mjs (`SITE`) | Dokka |
-| Compte Formspree : à quel nom ? Adresse de réception des demandes ; transférer au nom de Soultan | build.mjs (`FORMSPREE`) | Dokka |
-| Envoyer une vraie demande de test depuis l'aperçu, vérifier qu'elle arrive hors indésirables | Formulaire | Dokka |
+| Médiateur de la consommation : Soultan doit adhérer à un médiateur agréé (obligatoire dès qu'on travaille pour des particuliers ; liste officielle sur economie.gouv.fr, rubrique « médiateurs de la consommation »), puis donner son nom, son adresse et son site | Mentions légales | Soultan, avec Dokka |
+| TVA : regarder une facture de Soultan. Si elle porte « TVA non applicable, art. 293 B du CGI », on écrit cette mention (cas courant en micro-entreprise) ; si elle porte un numéro FR…, on écrit ce numéro | Mentions légales | Dokka |
+| Zone couverte par la décennale (écrite sur l'attestation d'assurance) | Mentions légales | Dokka |
+| Envoyer une vraie demande de test depuis l'aperçu, vérifier qu'elle arrive hors indésirables (adresse de réception du compte Formspree) | Formulaire | Dokka |
+
+## Réglé le 4 novembre 2026
+
+- Décennale : MIC Insurance Company, contrat n° AXE2200096 (donné par Dokka). Adresse du
+  siège d'après le registre de l'ACPR : 29 rue de Bassano, 75008 Paris.
+- Formulaire : `https://formspree.io/f/xaqlljda`, confirmé par Dokka.
+- Domaine `soultanmaconnerie.com` : payé et détenu par Dokka, accepté (Soultan est son
+  père). Exception à la règle « comptes au nom du client », décidée par Dokka.
+- Hébergeur : Vercel ne publie aucun numéro de téléphone vérifiable ; les mentions donnent
+  l'adresse et la page de contact officielle `vercel.com/contact`.
 
 ## À reconfirmer (repris de l'ancien site, non vérifié)
 
